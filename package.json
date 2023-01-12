@@ -1,0 +1,27 @@
+{
+  "name": "wx-front-body-of-knowledge",
+  "version": "1.0.0",
+  "description": "front-body-of-knowledge",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muxiao-123/front-body-of-knowledge.git"
+  },
+  "keywords": [
+    "front-knowledge"
+  ],
+  "author": "muxiao-123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muxiao-123/front-body-of-knowledge/issues"
+  },
+  "homepage": "https://github.com/muxiao-123/front-body-of-knowledge#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.60"
+  }
+}

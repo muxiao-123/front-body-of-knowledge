@@ -1,0 +1,6 @@
+# 解决 warning: LF will be replaced by CRLF in package-lock.json.
+# package.json text eol=lf
+# package-lock.json text eol=lf
+* text eol=lf
+# [.prettierignore] text eol=lf
+# git config core.autocrlf false
