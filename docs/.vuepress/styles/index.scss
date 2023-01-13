@@ -1,4 +1,16 @@
 :root {
   scroll-behavior: smooth;
   --content-width: 900px;
+  --sidebar-width: 15rem;
+}
+.sidebar-item.sidebar-heading {
+  font-size: 1em;
+}
+.sidebar-item:not(.sidebar-heading) {
+  font-size: 0.9em;
+}
+.page .theme-default-content,
+.page-nav,
+.page-meta {
+  max-width: none;
 }

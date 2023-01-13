@@ -1,20 +1,27 @@
-import type { SidebarConfig } from 'vuepress'
+import type { SidebarConfig, SidebarGroup, SidebarItem } from 'vuepress'
+const jsBars  = () => {
+  return {
+    text: 'JS',
+    link: '/js/',
+    children: [
+      {
+        text: '目录',
+        link: '/js/'
+      },
+      {
+        text: '提问',
+        link: '/js/question'
+      },
+    ]
+  }
+}
 export const sidebar: SidebarConfig = [
   {
     text: '首页',
     link: '/',
     
   },
-  {
-    text: 'JS',
-    link: '/js/',
-    children: [
-      {
-        text: '提问',
-        link: '/js/question/'
-      }
-    ]
-  },
+  jsBars(),
   {
     text: 'HTML-CSS',
     link: '/html-css/',
